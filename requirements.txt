@@ -1,0 +1,3 @@
+numpy==2019.1
+pandas==1.10.10
+textblob==3.9.0
