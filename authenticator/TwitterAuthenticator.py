@@ -1,6 +1,5 @@
 from Credentials import Credentials
 from tweepy import OAuthHandler
-from tweepy import Stream
 
 # # # # TWITTER AUTHENTICATER # # # #
 class TwitterAuthenticator():

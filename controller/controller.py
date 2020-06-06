@@ -14,9 +14,7 @@ def tweets():
 	try:
 		source = request.args.get('source')
 		twitter_client = TwitterClient()
-		tweet_analyzer = TweetAnalyzer()
 		result = []
-		tweet = {}
 
 		if  source[0] == '#':
 			source = source[1:]
