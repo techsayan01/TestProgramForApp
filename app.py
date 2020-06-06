@@ -1,5 +1,4 @@
-from flask import Flask, request
-from controller import controller
+from __init__ import *
 import requests
 
 app = Flask(__name__)
